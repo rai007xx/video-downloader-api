@@ -1,0 +1,17 @@
+{
+  "name": "streamsave-backend",
+  "version": "1.0.0",
+  "description": "Serverless Video Downloader Backend using Express and yt-dlp-exec",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "yt-dlp-exec": "^2.5.8"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
